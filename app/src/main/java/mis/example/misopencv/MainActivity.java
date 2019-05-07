@@ -36,8 +36,7 @@ public class MainActivity extends AppCompatActivity implements CvCameraViewListe
     private CameraBridgeViewBase    mOpenCvCameraView;
     private boolean                 mIsJavaCamera = true;
     private MenuItem                mItemSwitchCamera = null;
-    private CascadeClassifier faceCascade;
-    private CascadeClassifier noseCascade;
+    private CascadeClassifier faceCascade, noseCascade;
     private Size faceClassifierSize, noseClassifierSize;
 
     private BaseLoaderCallback mLoaderCallback = new BaseLoaderCallback(this) {
